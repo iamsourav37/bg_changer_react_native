@@ -15,7 +15,7 @@ const App = () => {
     <>
       <View style={[styles.viewStyle, {backgroundColor: randomColor}]}>
         <TouchableOpacity onPress={changeBgColor}>
-          <Text style={styles.textStyle}>Hello World</Text>
+          <Text style={styles.textStyle}>BG CHANGER</Text>
         </TouchableOpacity>
       </View>
     </>
